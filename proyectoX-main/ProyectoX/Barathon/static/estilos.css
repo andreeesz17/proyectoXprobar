@@ -1,0 +1,42 @@
+body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #333;
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-radius: 12px;
+    padding: 8px 20px;
+    border: none;
+}
+
+.navbar {
+    background-color: #0d6efd;
+}
+
+.navbar-brand, .nav-link, .navbar-text {
+    color: white !important;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #0d6efd;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
